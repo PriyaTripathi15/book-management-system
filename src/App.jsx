@@ -121,10 +121,10 @@ export default function App() {
     <div className="min-h-screen bg-transparent p-6 text-amber-50">
       <div className="mx-auto max-w-6xl">
         <h1 className="mb-2 text-center text-4xl font-bold text-amber-300 drop-shadow-[0_2px_2px_rgba(0,0,0,0.35)]">
-          Book Management System
+          My Library Hub
         </h1>
         <p className="mb-8 text-center text-amber-100/80">
-          Manage your collection with CRUD operations, search, and genre filtering.
+          Organize your books with add, edit, delete, search, and genre filtering.
         </p>
 
         <BookForm
