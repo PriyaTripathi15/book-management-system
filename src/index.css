@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: Arial, sans-serif;
+  background: #0b0a07; /* very dark brown */
+  color: #fff8e6; /* warm cream text */
+}
+
+/* small helpers for subtle card shadows */
+.card-shadow{box-shadow: 0 6px 18px rgba(11,10,7,0.6);} 
+
+::selection {
+  background: #facc15;
+  color: #2d1b12;
+}
